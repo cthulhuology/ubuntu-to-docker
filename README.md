@@ -14,3 +14,9 @@ If you spin up a mycloud.rackspace.com image for Ubunut 13.04 and then run this 
 It will install the base packages and setup docker on the base image.
 
 You can then snapshot the resulting VM image and reuse to your heart's content!
+
+Should the command
+
+	docker ps
+	
+complain that docker is not installed simply rerun the curl line again and everything should work.
